@@ -1,6 +1,6 @@
 # RadioHabbo
 
-Sitio web de radio en vivo construido con Next.js (Pages Router). Incluye un banner con gradiente, reproductor embebido, hora y fecha de Venezuela (America/Caracas) desde un endpoint propio, avatar de Habbo ("keko") y preparación para Google AdSense.
+Sitio web de radio en vivo construido con Next.js (Pages Router). Incluye un banner con gradiente, reproductor embebido, hora y fecha de Venezuela (America/Caracas) desde un endpoint propio, avatar de Habbo ("keko").
 
 ## Características
 - Banner con gradiente y foto/título alineados a la izquierda
@@ -8,12 +8,10 @@ Sitio web de radio en vivo construido con Next.js (Pages Router). Incluye un ban
 - Hora y fecha de Caracas desde `/api/hora` usando Luxon
 - Avatar Habbo dinámico con parámetro anti-cache
 - Estilos responsivos y tema oscuro
-- Integración de AdSense (script en `_app.js` y `public/ads.txt`)
 
 ## Tech Stack
 - Next.js, React, Luxon
 - CSS plano en `styles/styles.css`
-- Despliegue recomendado: Vercel
 
 ## Estructura del proyecto
 ```
@@ -24,7 +22,6 @@ pages/
   api/
     hora.js
 public/
-  ads.txt
   imagenes/
 styles/
   styles.css
@@ -56,5 +53,3 @@ styles/
 ## Streaming de audio
 - Actualmente usa el widget de Caster.fm. Para un player propio necesitarás un servidor de streaming (Icecast/Shoutcast) y emitir con un encoder (p. ej., BUTT). En Vercel no es viable alojar Icecast; considera VPS.
 
-## Licencia
-ISC
