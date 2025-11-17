@@ -50,5 +50,8 @@ styles/
 - Respuesta ejemplo: `{ "hora": "12:34 PM", "fecha": "01 de enero de 2025" }`
 
 ## Streaming de audio
-- Actualmente usa el widget de Caster.fm. Para un player propio necesitarás un servidor de streaming (Icecast/Shoutcast) y emitir con un encoder (p. ej., BUTT). En Vercel no es viable alojar Icecast; considera VPS.
-
+<<<<<<< HEAD
+- Actualmente usa el widget de Caster.fm. Para un player propio necesitarás un servidor de streaming (Icecast/Shoutcast) y emitir con un encoder (p. ej., BUTT).
+=======
+- Actualmente usa el widget de Caster.fm. Para un player propio necesitarás un servidor de streaming (Icecast/Shoutcast) y emitir con un encoder (p. ej., BUTT). 
+>>>>>>> 6b5dfce70faf6edc2301784c8b139ad39324c560
