@@ -43,7 +43,6 @@ styles/
 - La API `/api/hora` se despliega como ruta serverless automáticamente
 
 ## Configuración
-- AdSense: Meta + script en `pages/_app.js` y `public/ads.txt` (reemplaza el `client` si aplica)
 - Avatar Habbo: Edita el usuario en `pages/index.js` (parámetro `user=`)
 
 ## Hora de Caracas (API)
